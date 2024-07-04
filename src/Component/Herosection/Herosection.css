@@ -1,0 +1,68 @@
+.Herosection{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100px;
+    width:700px;
+    height: 200px;
+    text-align: left;
+    align-items: left;
+}
+
+.herosectionCTA{
+    background-color: transparent;
+    border:1px solid lightgray;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease;
+
+}
+
+.herosectionCTA:hover{
+    transform: scale(1.1);
+}
+
+.herosectionicon{
+    margin-right: 8px;
+}
+
+.Herosection h1{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.Herosection h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 200;
+
+}
+
+.Herosection span{
+    color: var(--primary-color);
+}
+
+.herosectiondescription{
+    color:rgba(245, 245, 245, 0.671);
+    font-size:20px;
+    margin-bottom: 50px;
+}
+.numbercardsec{
+    width: 5%;
+    display: flex;
+    
+}
+.numbercardsec p{
+    width: 75%;
+    
+}
+
+.herosectionCTA:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    
+}
+

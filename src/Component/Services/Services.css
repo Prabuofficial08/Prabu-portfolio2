@@ -1,0 +1,40 @@
+.servicesection{
+    padding: 0%;
+    margin:0%;
+    text-align: left;
+    margin-top: 500px;
+    
+}
+
+
+
+.servicesectionCTA{
+    background-color: transparent;
+    border:1px solid lightgray;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+.servicesectionCTA:hover{
+    background-color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+
+.servicesectionhead{
+    color: whitesmoke;
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+
+.servicesectionhead span{
+    color:var(--primary-color)
+}

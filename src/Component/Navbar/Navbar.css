@@ -1,0 +1,34 @@
+.Navbarmenuicons{
+ color: rgba(255, 255, 255, 0.648);
+ font-size: 24px;
+ margin-bottom: 20px;
+}
+.Navbarmenuicons:hover{
+    color: var(--primary-color);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width:40px;
+    border-radius: 20px;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed;
+    right: 5%;
+    top: 30%;
+    transition: 0.5s;
+    
+   
+    
+}
+.Navbar:hover{
+  border-color: var(--primary-color);
+  transform:scale(1.1);
+  
+ 
+  
+ 
+}

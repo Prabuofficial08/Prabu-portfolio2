@@ -1,0 +1,39 @@
+.Specializationcard{
+    text-align: left;
+    border: 1px solid white;
+    width:100%;
+    padding:45px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition:all 0.5s;
+    transition: transform 0.3s ease;
+}
+.Specializationcard:hover{
+    border-color: var(--primary-color);
+    transform: scale(1.1);
+}
+.Specializationcardheadcontent h1{
+    color:white;
+    font-size:23px;
+    font-weight: 400;
+}
+.Specializationcardheadcontent p{
+    color:rgba(255, 255, 255, 0.573);
+    margin-top:10px;
+    font-size:12px;
+}
+.Specializationcardhead{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.speciallizationsectionicon{
+    color:white;
+}
+.specializationcardcontent {
+    color: white;
+    font-size: 500;
+    margin-top:10px;
+    font-size: 14px;
+    
+}
